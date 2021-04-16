@@ -195,7 +195,7 @@
       },
       {
         "title": "2. Import this module",
-        "body": "<p>Once you have looked at the default course, create a new course for your submission.&nbsp;</p><p>Delete the src directory in the course folder.</p><p>Download this&nbsp;zip file containing the course you are looking at and unzip it in your course directory to create a new source folder.</p><p>running&nbsp;<em><strong>grunt build</strong>&nbsp;</em>and&nbsp;<em><strong>grunt server&nbsp;</strong></em>should show you this module.</p>",
+        "body": "<p>Once you have looked at the default course, create a new course for your submission.&nbsp;</p><p>Delete the src directory in the course folder.</p><p>Download <a href=\"https://ukodi-training.github.io/dev-challenge/web-applications-developer-challenge-export.zip\" target=\"_blank\">this&nbsp;zip file</a> containing the course you are looking at and unzip it in your course directory to create a new source folder.</p><p>running&nbsp;<em><strong>grunt build</strong>&nbsp;</em>and&nbsp;<em><strong>grunt server&nbsp;</strong></em>should show you this module.</p>",
         "_graphic": {
           "alt": "",
           "src": "",
