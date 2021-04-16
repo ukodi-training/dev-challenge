@@ -1,0 +1,413 @@
+[
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Web applications developer challenge",
+    "displayTitle": "Web applications developer challenge",
+    "body": "<p>Congratulations on making it through to the shortlist for the junior web applications developer role at the Open Data Institute.&nbsp;</p><p>Due to the number of candidates with similar experiences we have decided to create a challenge for you to attempt in order to demonstrate you are the best candidate for the job.</p><p>You have until 17:00 (BST)&nbsp;on the 27th April to submit your challenge entries via email to jobs@theodi.org.</p><p>You must submit a challenge entry as well as an explanation of what you have done.&nbsp;</p><p><strong>NOTE: We do not expect everyone to complete the challenge! Before the deadline submit as far as you have got and include description in the explanation of where you got to, what was left to do and your confidence in completing it given time. DO NOT SPEND AN UNREASONABLE AMOUNT OF TIME ON THE CHALLENGE.</strong></p>",
+    "_id": "60781c23581a1201383d6d3c",
+    "_parentId": "60781c23581a1201383d6d3b",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "instruction": "Scroll down to get started."
+  },
+  {
+    "_component": "mcq",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "The challenge",
+    "displayTitle": "The challenge",
+    "body": "<p>You challenge is to create a&nbsp;<strong>simple&nbsp;</strong><strong>interactive visual game</strong>&nbsp;that integrates into this learning framework you are currently looking at.&nbsp;</p><p>Are you up for the challenge?</p>",
+    "_id": "60781ff6581a1201383d6d40",
+    "_parentId": "60781d46581a1201383d6d3d",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "instruction": "",
+    "_items": [
+      {
+        "text": "Yes",
+        "_shouldBeSelected": true,
+        "feedback": ""
+      },
+      {
+        "text": "No",
+        "_shouldBeSelected": false,
+        "feedback": ""
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": false,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p><strong>Excellent!</strong></p><p>Your game must have a successful/unsuccessful outcome, just like this question.&nbsp;</p><p>The outcome (successful/unsuccessful) changes the feedback given through the learning framework.</p>",
+      "_incorrect": {
+        "final": "<p><strong>Oh no!</strong></p><p>That's a shame! If we do not hear from you we will assume you do not want to continue through the application process.&nbsp;</p><p>Conversely you can reload this page and select a different option!</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "The learning framework",
+    "displayTitle": "The learning framework",
+    "body": "<p>You are looking at an eLearning module produced in the <a href=\"https://www.adaptlearning.org/\" target=\"_blank\">Adapt eLearning framework</a>.</p><p>Adapt is a powerful open source eLearning framework written in node.js. It has a plugin framework which allows you to make use of text components (like this one), question components (like the previous one) and graphic components (like the one on the right/below) to create content. You can view a full list of components and plugins on the <a href=\"https://github.com/adaptlearning/adapt_framework/wiki/Core-Plug-ins-in-the-Adapt-Learning-Framework\" target=\"_blank\">adapt wiki</a>.&nbsp;</p><p>As the Adapt framework&nbsp;is open source, you can also extend or create you own components and plugins.</p><p>Your challenge is to make a new question component that extends all the <a href=\"https://github.com/adaptlearning/adapt_framework/wiki/Developers-guide:-components\" target=\"_blank\">existing methods</a> but presents an <strong>interactive visual game</strong>.</p>",
+    "_id": "607822ce581a1201383d6d42",
+    "_parentId": "607822be581a1201383d6d41",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Adapt logo",
+    "displayTitle": "",
+    "body": "",
+    "_id": "607822d1581a1201383d6d43",
+    "_parentId": "607822be581a1201383d6d41",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/7a87dd49188c2a524bb92a22f2b300a5d3a45ebf.png",
+      "small": "course/en/assets/7a87dd49188c2a524bb92a22f2b300a5d3a45ebf.png",
+      "attribution": "<a href=\"https://www.adaptlearning.org/\" target=\"_blank\">Adapt</a> <span class='assetLicence'>[All rights reserved]</span>"
+    }
+  },
+  {
+    "_component": "accordion",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Getting started",
+    "displayTitle": "Getting started",
+    "body": "<p>Here are some instructions to get you started.</p>",
+    "_id": "607864ca581a1201383d6d52",
+    "_parentId": "607861a0581a1201383d6d50",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "instruction": "Click each section to find out more.",
+    "_setCompletionOn": "allItems",
+    "_items": [
+      {
+        "title": "1. Set up your environment",
+        "body": "<p>Follow the instructions <a href=\"https://github.com/adaptlearning/adapt_framework/wiki/Setting-up-your-development-environment\" target=\"_blank\">here</a>&nbsp;to get your development environment set up.</p><p>We recommend looking through the default course that will come out of the box as it will help you get familiar with the framework.</p><p>Note: You can ignore the bits relating to SCORM.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "2. Import this module",
+        "body": "<p>Once you have looked at the default course, create a new course for your submission.&nbsp;</p><p>Delete the src directory in the course folder.</p><p>Download this&nbsp;zip file containing the course you are looking at and unzip it in your course directory to create a new source folder.</p><p>running&nbsp;<em><strong>grunt build</strong>&nbsp;</em>and&nbsp;<em><strong>grunt server&nbsp;</strong></em>should show you this module.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "3. Take a look at the components.json file",
+        "body": "<p>Under \"src/course/en\" you will find a components.json file.&nbsp;</p><p>This defines the config for all the components used in the course. Including this one.&nbsp;</p><p>Search for mygame and you will find the configuration for the random number game you just played. Depending on what game you want to implement will depend on what configuration you need to create.&nbsp;</p><p>Why not trying adjusting the _minNumber and _maxNumber and building the course again to see how it changes the game? The developer console will have debugging on it, I'm sure you are familiar with that!</p><p>All the configuration is read by your game component, so let's look at that...</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "4. Customising your own game",
+        "body": "<p>Included in this course is a basic game (the random number guesser). You can find the code on github <a href=\"https://github.com/davetaz/adapt-mygame\" target=\"_blank\">here</a>.</p><p>In the courses src folder, you can find this under \"components/myGame\".</p><p>You can read all about components and how to create/customise them on the <a href=\"https://github.com/adaptlearning/adapt_framework/wiki/Developing-plugins\" target=\"_blank\">adapt wiki</a>.</p><p>We recommend that you either follow the guide on the wiki or customise this component, making it your own.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "5. Understanding inheritance",
+        "body": "<p>One of the key things about question components is that they inherit and can override the core component models and views.&nbsp;</p><p>You can find the super classes in \"core/js/(model/view)\".</p><p>Doing this will show you what has been overridden in the mygame component and what has simply been left alone.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      }
+    ],
+    "_shouldCollapseItems": true
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "The rules",
+    "displayTitle": "The rules",
+    "body": "<ol><li>You must submit a complete adapt course&nbsp;<em>src</em>&nbsp;directory as provided.</li><li>Your course must include a new interactive question component.</li><li>Your question component must be novel and not already exist in the adapt community.</li><li>Your question component must be interactive and use some graphical or game based element.</li><li>Your question component must give a correct/incorrect result&nbsp;back to Adapt.</li><li>Your question component&nbsp;must give feedback via the tutor plugin in Adapt and the feedback must vary based upon a correct/incorrect (successful/unsuccessful) outcome.</li><li>You CAN use existing source code for the interactive element that exists outside of the adapt framework. Many of you might have this in your portfolios already. e.g. a noughts and crosses game, spot the difference puzzle, a sorting puzzle&nbsp;etc.</li></ol>",
+    "_id": "60786674581a1201383d6d57",
+    "_parentId": "60786674581a1201383d6d56",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "mygame",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Example submission",
+    "displayTitle": "Example submission",
+    "body": "<p>This is what your final submission might look like (except with a visual element to the game).</p><p>This example game requires you to guess a number between 1 and 5. Each time you get it wrong the computer will tell you the number it was thinking of. You have 5 attempts and each one may have a new random number.</p>",
+    "_id": "6079b0e4aa056437820a24ec",
+    "_parentId": "607956f85ebd3206b3801247",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "instruction": "Guess a number between 1 and 5",
+    "_minNumber": 1,
+    "_maxNumber": 5,
+    "_attempts": 5,
+    "_canShowModelAnswer": false,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": true,
+    "_isRandom": false,
+    "_recordInteraction": true,
+    "_questionWeight": 1,
+    "_allowsAnyCase": false,
+    "_allowsPunctuation": false,
+    "_feedback": {
+      "title": "",
+      "correct": "<p><strong>You win!</strong></p><p>The computer was thinking of {{number}}, well done.</p>",
+      "_incorrect": {
+        "final": "<p><strong>Game over</strong></p><p>The computer was thinking of {{number}}!</p>",
+        "notFinal": "<p><strong>Try again</strong></p><p>The computer was thinking of {{number}} that time!</p>"
+      },
+      "_partlyCorrect": {
+        "final": "",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Getting help",
+    "displayTitle": "Getting help",
+    "body": "<p>If you have questions about the challenge, feel free to email training@theodi.org and we will try and answer your questions. We will also update this module daily with answers to any questions we have received. These will appear in the Q&amp;A section below.&nbsp;</p><p>Remember also that there is a adapt developer community and they have a gitter channel for the framework so you could also ask in there.</p>",
+    "_id": "6079b833aa056437820a24ef",
+    "_parentId": "6079b833aa056437820a24ee",
+    "_type": "component",
+    "_layout": "left",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "text",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Q&A",
+    "displayTitle": "Q&A",
+    "body": "<p>We will add questions and answers here as they are asked.</p><p>Last updated 2020-04-16 @ 18:00</p>",
+    "_id": "6079b91faa056437820a24f2",
+    "_parentId": "6079b91faa056437820a24f1",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "instruction": ""
+  },
+  {
+    "_component": "graphic",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Good luck",
+    "displayTitle": "Good luck",
+    "body": "",
+    "_id": "6079b9e3aa056437820a24f3",
+    "_parentId": "6079b833aa056437820a24ee",
+    "_type": "component",
+    "_layout": "right",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "large": "course/en/assets/fa3f7f9e98267a314b3bc5aaa8049834fb2eb710.jpg",
+      "small": "course/en/assets/fa3f7f9e98267a314b3bc5aaa8049834fb2eb710.jpg",
+      "attribution": "<a href=\"https://www.freepik.com/photos/woman\" target=\"_blank\">Woman photo created by nakaridore - www.freepik.com</a> <span class='assetLicence'>[CC-BY]</span>"
+    }
+  }
+]
