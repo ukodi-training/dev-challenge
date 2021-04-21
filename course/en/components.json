@@ -357,30 +357,6 @@
     "instruction": ""
   },
   {
-    "_component": "text",
-    "_classes": "",
-    "_isOptional": false,
-    "_isAvailable": true,
-    "_isHidden": false,
-    "_isVisible": true,
-    "_isResetOnRevisit": "false",
-    "_ariaLevel": 0,
-    "_disableAccessibilityState": false,
-    "title": "Q&A",
-    "displayTitle": "Q&A",
-    "body": "<p>We will add questions and answers here as they are asked.</p><p>Last updated 2020-04-16 @ 18:00</p>",
-    "_id": "6079b91faa056437820a24f2",
-    "_parentId": "6079b91faa056437820a24f1",
-    "_type": "component",
-    "_layout": "full",
-    "_onScreen": {
-      "_isEnabled": false,
-      "_classes": "",
-      "_percentInviewVertical": 50
-    },
-    "instruction": ""
-  },
-  {
     "_component": "graphic",
     "_classes": "",
     "_isOptional": false,
@@ -409,5 +385,53 @@
       "small": "course/en/assets/fa3f7f9e98267a314b3bc5aaa8049834fb2eb710.jpg",
       "attribution": "<a href=\"https://www.freepik.com/photos/woman\" target=\"_blank\">Woman photo created by nakaridore - www.freepik.com</a> <span class='assetLicence'>[CC-BY]</span>"
     }
+  },
+  {
+    "_component": "accordion",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "title": "Q&A",
+    "displayTitle": "Q&A",
+    "body": "<p>Last updated 2012-04-21 @ 12:45</p>",
+    "_id": "60800ec5b10b54008ded3302",
+    "_parentId": "6079b91faa056437820a24f1",
+    "_type": "component",
+    "_layout": "full",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50
+    },
+    "instruction": "",
+    "_setCompletionOn": "allItems",
+    "_items": [
+      {
+        "title": "What format do you want the submission in?",
+        "body": "<p><strong>zip </strong>file please. As per rule 1 this must be a zip file of the <strong>src </strong>directory for the course. Send this to <strong>jobs@theodi.org.</strong></p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "What format do you want the description in?",
+        "body": "<p>This can either be in the body of your submission email or as a separate txt/doc/pdf etc file. As long as it is clear and easy to find.</p>",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      }
+    ],
+    "_shouldCollapseItems": true
   }
 ]
